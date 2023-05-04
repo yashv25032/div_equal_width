@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    height: 100vh;
+}
+
+.row .side1{
+    width: 50%;
+    top: 30%;
+    /* background-color: rgb(126, 240, 240); */
+    background-color: rgb(223, 226, 226);
+    height: 100vh;
+}
+
+.row .side2{
+    width: 50%;
+    
+}
+.row .side1 .side-main{
+    margin-top: 25%;
+
+}
+
+.row .side1 .side-main h1{
+    text-align: center;
+}
+
+.row .side1 .side-main form{
+    margin: 0% 0% 0% 20%;
+    padding: 10px;
+}
+
+.row .side1 .side-main .l-input input{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.row .side1 .side-main .link{
+    margin: 20px 2px 0px 138px;
+}
+.row .side1 .side-main .link a{
+    margin: 20px;
+    text-decoration: underline;
+    color: rgb(11, 53, 239);
+}
+
+.row .side1 .side-main .btn input{
+    width: 280px;
+    border-radius: 10px;
+    height: 35px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(29, 29, 146);
+}
